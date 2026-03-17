@@ -11,8 +11,10 @@ declare global {
 }
 
 const options = {
-  serverSelectionTimeoutMS: 10000,
-  connectTimeoutMS: 10000,
+  serverSelectionTimeoutMS: 30000,
+  connectTimeoutMS: 30000,
+  retryWrites: true,
+  retryReads: true,
 };
 
 if (process.env.NODE_ENV === 'development') {
