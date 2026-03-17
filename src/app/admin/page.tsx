@@ -23,7 +23,7 @@ interface Submission {
   createdAt: string;
 }
 
-const ADMIN_PASSWORD = "admin123";
+const ADMIN_PASSWORD = ".malik18434";
 
 export default function AdminPage() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
