@@ -4,10 +4,8 @@ const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017';
 const dbName = process.env.MONGODB_DB || 'fixit_recovery';
 
 const options = {
-  serverSelectionTimeoutMS: 5000,
-  connectTimeoutMS: 5000,
-  retryWrites: true,
-  retryReads: true,
+  serverSelectionTimeoutMS: 10000,
+  connectTimeoutMS: 10000,
 };
 
 let client: MongoClient | null = null;
