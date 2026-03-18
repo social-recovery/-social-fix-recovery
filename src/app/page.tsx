@@ -21,13 +21,13 @@ const processSteps = [
   {
     step: "02",
     title: "We Get to Work",
-    description: "Using our internal contacts and platform relationships, we work directly with each social network.",
+    description: "We guide you through the official platform appeal process and provide expert consulting to maximize your chances of recovery.",
     icon: "⚡"
   },
   {
     step: "03",
-    title: "Account Recovered",
-    description: "We notify you immediately once your account is restored. Get back to your digital life!",
+    title: "Next Steps",
+    description: "We provide you with guidance and support throughout the official appeal process.",
     icon: "✅"
   }
 ];
@@ -36,25 +36,25 @@ const services = [
   {
     title: "Disabled Account",
     price: "$300 - $1000",
-    features: ["Fast Recovery", "Direct Platform Contact", "1-2hr Average", "Money-back Guarantee"],
-    description: "Get your disabled Instagram, Facebook, TikTok or X account back.",
+    features: ["Fast Recovery", "Expert Guidance", "1-2hr Average", "Professional Support"],
+    description: "            Get expert consulting to help you navigate the official appeal process for your disabled Instagram, Facebook, TikTok or X account.",
     id: "disabled",
     popular: false
   },
   {
     title: "Hacked Account",
     price: "$300 - $1000",
-    features: ["Account Retrieval", "Username Recovery", "Full Access Restore", "Priority Support"],
-    description: "Recover your hacked account even if username or email was changed.",
+    features: ["Account Review", "Username Recovery", "Full Access Restore", "Expert Consultation"],
+    description: "            Get expert consulting for your hacked account even if username or email was changed.",
     id: "hacked",
     popular: true
   }
 ];
 
 const stats = [
-  { value: "500+", label: "Accounts Recovered" },
-  { value: "98%", label: "Success Rate" },
-  { value: "1-2hr", label: "Avg. Recovery Time" },
+  { value: "500+", label: "Consultations" },
+  { value: "Professional", label: "Expert Team" },
+  { value: "24hr", label: "Response Time" },
   { value: "4.9/5", label: "Client Rating" }
 ];
 
@@ -62,13 +62,13 @@ const testimonials = [
   {
     name: "Sarah M.",
     platform: "Instagram",
-    text: "My account was disabled for 3 months. They got it back in 2 days!",
+    text: "They helped me understand the appeal process and guided me through it. Very professional service!",
     stars: "⭐⭐⭐⭐⭐"
   },
   {
     name: "James K.",
     platform: "TikTok",
-    text: "Hacker changed my username but they still recovered it. Amazing service!",
+    text: "Great consulting service. They explained what steps to take and helped me prepare my appeal.",
     stars: "⭐⭐⭐⭐⭐"
   }
 ];
@@ -207,7 +207,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-8">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
-            <span className="text-sm text-gray-300">98% Success Rate • Trusted by 500+ Clients</span>
+            <span className="text-sm text-gray-300">Professional Consulting Services</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8">
@@ -215,8 +215,7 @@ export default function Home() {
           </h1>
           
           <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-            Disabled or hacked? We help recover Instagram, Facebook, TikTok, X, YouTube & WhatsApp accounts. 
-            Quick, secure, and guaranteed results.
+            Disabled or hacked? We provide expert consulting to help you navigate the official appeal process for Instagram, Facebook, TikTok, X, YouTube & WhatsApp accounts.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
@@ -224,7 +223,7 @@ export default function Home() {
               onClick={() => handleOpenModal()}
               className="bg-gradient-to-r from-cyan-400 to-cyan-500 text-black px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl hover:shadow-cyan-400/25 transition-all duration-300 hover:scale-105"
             >
-              Start Recovery — $300+
+              Start Consultation — $300+
             </button>
             <a 
               href="#process"
@@ -366,7 +365,7 @@ export default function Home() {
       <section className="py-24 px-6 bg-gradient-to-b from-transparent via-cyan-950/20 to-transparent">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">Ready to Recover Your Account?</h2>
-          <p className="text-xl text-gray-400 mb-10">Don&apos;t let a hacked or disabled account ruin your digital presence. Get started today.</p>
+          <p className="text-xl text-gray-400 mb-10">Don't let a hacked or disabled account affect your digital presence. Get expert guidance today.</p>
           
           <button 
             onClick={() => handleOpenModal()}
@@ -386,7 +385,7 @@ export default function Home() {
                 <span className="w-8 h-8 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-lg flex items-center justify-center">⚡</span>
                 <span>SocialFix Pro <span className="text-cyan-400">Recovery</span></span>
               </a>
-              <p className="text-gray-500 mt-4 text-sm">Helping people recover their social media accounts since 2024.</p>
+              <p className="text-gray-500 mt-4 text-sm">Professional consulting services for social media account issues since 2024. Not affiliated with any social media platform.</p>
             </div>
             
             <div>
@@ -409,8 +408,8 @@ export default function Home() {
             <div>
               <h4 className="font-semibold mb-4">Legal</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Terms of Service</a></li>
+                <li><a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a></li>
+                <li><a href="/terms" className="hover:text-white transition-colors">Terms of Service</a></li>
               </ul>
             </div>
           </div>
@@ -438,7 +437,7 @@ export default function Home() {
               <div className="p-8">
                 <div className="flex justify-between items-center mb-8">
                   <div>
-                    <h2 className="text-2xl font-bold">Start Recovery</h2>
+                    <h2 className="text-2xl font-bold">Start Consultation</h2>
                     <p className="text-gray-400 text-sm mt-1">Step {formStep} of 2</p>
                   </div>
                   <button onClick={handleCloseModal} className="text-gray-400 hover:text-white text-2xl w-10 h-10 flex items-center justify-center rounded-full hover:bg-white/10 transition-colors">×</button>
@@ -665,7 +664,7 @@ export default function Home() {
                             required
                           />
                           <span className="text-sm text-gray-300">
-                            I understand the recovery fee is <span className="text-cyan-400 font-semibold">$300 - $1000</span> and agree to the terms.
+                            I understand this is a consulting service and <span className="text-cyan-400 font-semibold">account recovery depends on the platform's decision</span>. I agree to the terms.
                           </span>
                         </label>
                       </div>
