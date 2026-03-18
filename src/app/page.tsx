@@ -181,6 +181,12 @@ export default function Home() {
 
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-xl border-b border-white/5">
+        {/* Disclaimer Banner */}
+        <div className="bg-amber-900/30 border-b border-amber-500/30 py-2 px-4 text-center">
+          <p className="text-xs text-amber-200">
+            <strong>Disclaimer:</strong> We provide consulting services only. We are not affiliated with, endorsed by, or connected to any social media platform. Account decisions are made solely by the respective platform.
+          </p>
+        </div>
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="/" className="text-xl font-bold tracking-tight flex items-center gap-2">
             <span className="w-8 h-8 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-lg flex items-center justify-center">⚡</span>
@@ -203,7 +209,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-40 pb-24 px-6 relative">
+      <section className="pt-48 pb-24 px-6 relative">
         <div className="max-w-5xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-8">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
@@ -211,7 +217,7 @@ export default function Home() {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-8">
-            Recover Your <span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Social Accounts</span> Fast
+            Expert Consulting for <span className="bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">Social Media</span> Appeals
           </h1>
           
           <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">

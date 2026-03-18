@@ -9,8 +9,8 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "SocialFix Pro - Recover your disabled or hacked social media account",
-  description: "We help recover Instagram, Facebook, TikTok, X, YouTube & WhatsApp accounts fast. Get your disabled or hacked account back in 1-2 hours.",
+  title: "SocialFix Pro - Professional Social Media Consulting Services",
+  description: "Professional consulting services to help you navigate the official social media account appeal process. Expert guidance for Instagram, Facebook, TikTok, X, YouTube & WhatsApp.",
 };
 
 export default function RootLayout({
